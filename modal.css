@@ -1,0 +1,161 @@
+/* font link */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* font link */
+input {
+  border: none;
+  outline: none;
+}
+.modal-content {
+  width: 524px;
+  height: 634px;
+}
+.modal_header {
+  background-color: rgb(247, 247, 249);
+  width: 100%;
+  max-width: 100%;
+}
+.modal_header > h1 {
+  margin: 0px;
+  font-family: Arial, Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(113, 113, 120);
+  letter-spacing: 3px;
+  line-height: 34px;
+  padding-top: 16px;
+}
+.header_middle {
+  width: 100%;
+  background-color: rgb(247, 247, 249);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px 16px 28px;
+  border-radius: 4px 4px 0px 0px;
+}
+.header_middle > h3 {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-family: Arial, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.header_middle > p {
+  color: rgb(33, 33, 33);
+  margin-left: 10px;
+  font-size: 28px;
+  letter-spacing: 3px;
+  font-family: Arial, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.modal_body_section {
+  width: 100%;
+  padding: 20px 50px 40px;
+}
+.modal_payment > p {
+  margin: 0px 0px 10px;
+  font-family: Arial, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(33, 33, 33);
+  line-height: 1.8;
+}
+.payment_icons > .visa {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.modal_input {
+  font-family: Arial, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(66, 66, 66);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+.modal_input > input {
+  padding: 16.5px 14px;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  border: 0px;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(133, 133, 133);
+  margin-top: 15px;
+}
+.modal_input > input::placeholder {
+  font-size: 17px;
+}
+.icons_styles {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+}
+.button_payment {
+  width: 100%;
+}
+.button_payment > button {
+  width: 100%;
+}
+.modal_input_select {
+  width: 100%;
+  background-color: rebeccapurple;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  border: 0px;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(133, 133, 133);
+  height: 50px;
+  margin-top: 15px;
+}
+.input_select_filed {
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+.input_select_filed > option {
+  font-family: Arial, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(33, 33, 33);
+}
